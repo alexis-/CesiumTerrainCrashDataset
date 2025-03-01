@@ -23,7 +23,7 @@ Error
 ## Reproduction Steps
 
 Reproduction steps:
-1. Navigate to [Cesium Sandcastle Reproduction]()
+1. Navigate to [Cesium Sandcastle Reproduction](https://sandcastle.cesium.com/#c=dVLBctsgFPwVRpfIMwrIVmTZieJpxzn00E4zbtqTLhi/WEwQeODJbtrpvxekOraSVBfBsm933wNhtEOCYC2X+t6avdyAJbdkCU62De1/D8Nj+mhN892q+KJG3LlrxriCn9Jd0q3Eul1TadigcGm5q+84cgfILkY3la606Iz3Eg6dn4bD0fNHh8VVJLr90mj0GmCrKCG/K01ep70m/MDlmyYq/ad3OnpZEMj1VsGpvdUR6lq6g60FcHHwGKe0yCazeZ4lhDFyAIcBnqZ0Pi0m8zztYGdarF/oRTGZFh0O/ET37KurOQmwNjbQzwcgQONg4NyiX3GdDSJ1+lme9AFmfpHP0qDTq9TAN1JvTzJfONYUzcrDXLs4T+kZeydR1P/lXo4HZOvnEyaWpR72aH9jVPAGLKfKmKePGPddJOe3+KmPdB+8VkEj/hcy6f2TXnk0uomSqHT4rGARRha+D7LZ+VGR1r8xShlCs1Pcj4WtW/EESIVzIWCgluy8tNzIPZGb23feDhGKO+dPHlulvslfUEWLknn+m1Jlupxf92AVfw60erz43IOU0pL57fuVaIxac/tK+S8)
 2. Run (F8)
 3. Observe crash
 
@@ -43,7 +43,7 @@ Reproduction steps:
 ### Cesium sandcastle code:
 
 ```js
-const terrainProvider = Cesium.CesiumTerrainProvider.fromUrl('http://localhost:8080/dtm/');
+const terrainProvider = Cesium.CesiumTerrainProvider.fromUrl('https://alexis-.github.io/CesiumTerrainCrashDataset/');
 
 const viewer = new Cesium.Viewer("cesiumContainer", {
   terrainProvider: await terrainProvider
