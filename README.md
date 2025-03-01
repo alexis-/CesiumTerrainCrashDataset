@@ -50,13 +50,6 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 });
 
 
-const rectangle = Cesium.Rectangle.fromDegrees(
-  10.7328953, // west
-  60.9672950, // south
-  10.7377267, // east
-  60.9729449  // north
-);
-
 const center = Cesium.Cartesian3.fromDegrees(10.7335, 60.9685, 580);
 const heading = Cesium.Math.toRadians(50.0);
 const pitch = Cesium.Math.toRadians(-10.0);
